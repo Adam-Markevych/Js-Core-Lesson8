@@ -1,0 +1,137 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+.form,.account{
+    border: 1px solid rgb(190, 190, 190);
+    max-width: 500px;
+    margin: 50px auto;
+    border-radius: 10px;
+    display: block;
+}
+.header__form{
+    height: 40px;
+    border-radius: 10px 10px 0 0;
+    background-color: rgb(120, 1, 231);
+    color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+}
+.form__create{
+    padding: 20px 15px;
+}
+.second-name,.email,.radio,.position,.button-create{
+    padding-top: 15px;
+}
+
+input[type="text"]{
+   width: 100%;
+   height: 30px;
+   margin-top: 5px;
+}
+
+select{
+    margin-top: 5px;
+    width: 100%;
+    height: 30px;
+}
+button{
+    font-size: 20px;
+    width: 100%;
+    height: 30px;
+    background-color: rgba(120, 1, 231, 0.712);
+    color: rgb(255, 255, 255);
+}
+
+input[name="woman"]{
+    margin-left: 20px;
+}
+input[name="checked"]{
+    margin-top: 15px;
+}
+/**/
+.account-header{
+    position: relative;
+    height: 80px;
+    background-color: rgb(120, 1, 231);
+    border-radius: 10px;
+}
+.account{
+    text-align: center;
+    display: none;
+}
+.button{
+    display: inline-block;
+    width: 100px;
+    height: 40px;
+    line-height: 40px;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    text-align: center;
+    background-color: rgb(120, 1, 231);
+    margin-top: 20px;
+    margin-bottom: 25px;
+}
+.account-name{
+    margin-top: 100px;
+}
+.account-email{
+    margin-top: 10px;
+}
+.account-position{
+    margin-top: 15px;
+}
+hr{
+    margin-top: 20px;
+}
+.img{
+    position: absolute;
+    border: 5px solid rgb(255, 255, 255);
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    top: 30px;
+    left: 191px;
+}
+#but1{
+    display: inline-block;
+    width: 100%;
+    height: 30px;
+    line-height: 30px;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    text-align: center;
+    background-color: rgb(120, 1, 231);
+    margin-top: 15px;
+}
+
+.man{
+    background:  url(img5.png) no-repeat;
+    background-size: cover;
+    background-position: center center;
+
+}
+.woman{
+    background:  url(img1.png) no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+.account-footer{
+    width: 100%;
+    height: 50px;
+    background-color: rgb(120, 1, 231);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.icon{
+    font-size: 30px;
+    color: rgb(255, 255, 255);
+}
+.icon + .icon{
+    margin-left: 25px;
+}

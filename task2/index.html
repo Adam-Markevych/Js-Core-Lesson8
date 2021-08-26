@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <title>task2</title>
+</head>
+
+<body>
+    <div class="form">
+        <div class="header__form">
+            <h2>Create your account</h2>
+        </div>
+        <div class="form__create">
+            <form name="form">
+                <p class="first-name">First name</p>
+                <input type="text"name="first-name" placeholder="type here...">
+                <p class="second-name">Second name</p>
+                <input type="text" name="second-name" placeholder="type here...">
+                <p class="email">Email address</p>
+                <input type="text" name="email" placeholder="enter email">
+                <div class="radio">
+                    <input id="man" type="radio" name="sex" checked="checked">man
+                    <input id="woman" type="radio" name="sex">woman
+                </div>
+                <p class="position">Position</p>
+                <select name="it" placeholder="type here...">
+                    <option>Choose...</option>
+                    <option>Frontend</option>
+                    <option>Backend</option>
+                    <option>QC/QA</option>
+                </select>
+                <input type="checkbox" name="checked"> I agree all statements in Terms of service
+                <div class="button-create">
+                    <button  type="button" name="but1" disabled="">Sign Up</button>
+                </div>
+        </div>
+        </form>
+    </div>
+    <div class="account">
+        <div class="account-header">
+            <div class="img">
+                
+            </div>
+        </div>
+        <h2 class="account-name"></h2>
+        <p class="account-email"></p>
+        <p class="account-position"></p>
+        <hr>
+        <a class="button" href="index.html">Sign Out</a>
+        <div class="account-footer">
+            <i class="fab fa-facebook icon"></i>
+            <i class="fab fa-twitter icon"></i>
+            <i class="fab fa-instagram icon"></i>
+        </div>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+
+</html>
